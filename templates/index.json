@@ -1,75 +1,160 @@
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
+    "slideshow_hero_banner_a49bzY": {
+      "type": "slideshow-hero-banner",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "slides_KBiED7": {
+          "type": "slides",
           "settings": {
-            "heading": "Browse our latest products",
-            "heading_size": "h0"
+            "desktop_image": "shopify:\/\/shop_images\/1.webp",
+            "mobile_image": "shopify:\/\/shop_images\/1.webp",
+            "banner_caption": "Women's Apparel",
+            "banner_heading_left": "Elevate your wardrobe with our",
+            "animated_linked_text": "limited-time",
+            "banner_heading_right": "fashion offer!",
+            "heading_text_url": "shopify:\/\/collections",
+            "button_label": "Click",
+            "button_url": "",
+            "banner_text_position": "middle-center",
+            "text_align": "center"
           }
         },
-        "button": {
-          "type": "buttons",
+        "slides_qbGTVt": {
+          "type": "slides",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "desktop_image": "shopify:\/\/shop_images\/3.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/3.jpg",
+            "banner_caption": "Modern Elegance",
+            "banner_heading_left": "Step into the World of Style with the Latest Fashion Trends Unveiled!",
+            "animated_linked_text": "",
+            "banner_heading_right": "",
+            "heading_text_url": "",
+            "button_label": "Click",
+            "button_url": "shopify:\/\/collections\/sale",
+            "banner_text_position": "middle-left",
+            "text_align": "left"
+          }
+        },
+        "slides_yngwJV": {
+          "type": "slides",
+          "settings": {
+            "desktop_image": "shopify:\/\/shop_images\/4.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/4.jpg",
+            "banner_caption": "Trendy Classics",
+            "banner_heading_left": "Discover Signature Look: Fashion Forward and Fabulous!",
+            "animated_linked_text": "",
+            "banner_heading_right": "",
+            "heading_text_url": "",
+            "button_label": "Shop Now",
+            "button_url": "",
+            "banner_text_position": "middle-left",
+            "text_align": "left"
           }
         }
       },
       "block_order": [
-        "heading",
-        "button"
+        "slides_KBiED7",
+        "slides_qbGTVt",
+        "slides_yngwJV"
       ],
       "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "inverse",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
+        "auto_play": "true",
+        "arrow": "true",
+        "pagination": "true",
+        "speed": 1000,
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
+    "custom_rich_text_P7GrWY": {
+      "type": "custom-rich-text",
+      "blocks": {
+        "pre_heading_ChNYtY": {
+          "type": "preHeading",
+          "settings": {
+            "pre_heading": "What You Wear"
+          }
+        },
+        "heading_b9tDL6": {
+          "type": "heading",
+          "settings": {
+            "heading": "Fashion Emerges<\/br> As A Universal Language",
+            "heading_size": "h0"
+          }
+        },
+        "buttons_UjBFgi": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "Explore More",
+            "button_link": "shopify:\/\/collections\/accessories",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "pre_heading_ChNYtY",
+        "heading_b9tDL6",
+        "buttons_UjBFgi"
+      ],
       "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-c0ab0df7-f51e-4ab9-9fd1-3ae40ab0eeb4",
         "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 44,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "custom_image_grid_6hkF77": {
+      "type": "custom-image-grid",
+      "blocks": {
+        "images_mMkGmY": {
+          "type": "Images",
+          "settings": {
+            "desktop_image": "shopify:\/\/shop_images\/Rectangle_4264.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Rectangle_4264.jpg",
+            "pre_heading": "Caption",
+            "heading": "Women's Clothing Collection",
+            "button_label": "Explore",
+            "button_link": "shopify:\/\/collections\/accessories",
+            "button_style_secondary": false,
+            "color_scheme": "scheme-33f6cf8d-44e2-4cac-83e2-8296cf1140a0",
+            "content_position": "middle-center",
+            "content_alignment": "center"
+          }
+        },
+        "images_3z9X68": {
+          "type": "Images",
+          "settings": {
+            "desktop_image": "shopify:\/\/shop_images\/Rectangle_4265.jpg",
+            "pre_heading": "Caption",
+            "heading": "Women's Clothing Collection",
+            "button_label": "Explore",
+            "button_link": "shopify:\/\/collections\/best-seller",
+            "button_style_secondary": false,
+            "color_scheme": "scheme-33f6cf8d-44e2-4cac-83e2-8296cf1140a0",
+            "content_position": "middle-center",
+            "content_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "images_mMkGmY",
+        "images_3z9X68"
+      ],
+      "settings": {
+        "full_width": false,
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     }
   },
   "order": [
-    "image_banner",
-    "featured_collection"
+    "slideshow_hero_banner_a49bzY",
+    "custom_rich_text_P7GrWY",
+    "custom_image_grid_6hkF77"
   ]
 }
